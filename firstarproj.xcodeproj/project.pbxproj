@@ -13,6 +13,7 @@
 		F533288027F0AD390072AF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F533287E27F0AD390072AF0B /* Main.storyboard */; };
 		F533288227F0AD3A0072AF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F533288127F0AD3A0072AF0B /* Assets.xcassets */; };
 		F533288527F0AD3A0072AF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F533288327F0AD3A0072AF0B /* LaunchScreen.storyboard */; };
+		F533288E27F0B3B10072AF0B /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = F533288D27F0B3B10072AF0B /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F533288E27F0B3B10072AF0B /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = firstarproj;
+			packageProductDependencies = (
+				F533288D27F0B3B10072AF0B /* Algorithms */,
+			);
 			productName = firstarproj;
 			productReference = F533287527F0AD390072AF0B /* firstarproj.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = F533286C27F0AD390072AF0B;
+			packageReferences = (
+				F533288C27F0B3B10072AF0B /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = F533287627F0AD390072AF0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F533288C27F0B3B10072AF0B /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F533288D27F0B3B10072AF0B /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F533288C27F0B3B10072AF0B /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F533286D27F0AD390072AF0B /* Project object */;
 }
