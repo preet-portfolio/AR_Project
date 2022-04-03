@@ -25,6 +25,7 @@
 		F533288127F0AD3A0072AF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F533288427F0AD3A0072AF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F533288627F0AD3A0072AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F599861727F94CEC000D8AC0 /* firstarproj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstarproj.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		F533287727F0AD390072AF0B /* firstarproj */ = {
 			isa = PBXGroup;
 			children = (
+				F599861727F94CEC000D8AC0 /* firstarproj.entitlements */,
 				F533287827F0AD390072AF0B /* AppDelegate.swift */,
 				F533287A27F0AD390072AF0B /* SceneDelegate.swift */,
 				F533287C27F0AD390072AF0B /* ViewController.swift */,
@@ -99,6 +101,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
@@ -293,8 +298,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = firstarproj/firstarproj.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = firstarproj;
 				DEVELOPMENT_TEAM = N4C8WZY2YP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = firstarproj/Info.plist;
@@ -310,6 +317,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.preet.firstarproj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,8 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = firstarproj/firstarproj.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = firstarproj;
 				DEVELOPMENT_TEAM = N4C8WZY2YP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = firstarproj/Info.plist;
@@ -338,6 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.preet.firstarproj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
